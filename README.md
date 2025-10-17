@@ -72,6 +72,3 @@ Key areas of the app:
 - Solid Queue: https://github.com/rails/solid_queue
 - Solid Cache: https://github.com/rails/solid_cache
 
-## Notes
-
-This README is intentionally concise and focused on the personal learning goal of this project: getting started with Ruby on Rails (Rails 8). Feel free to expand features, add tests, and iterate on the UI as learning progresses.
