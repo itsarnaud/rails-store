@@ -6,6 +6,10 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   # Create all CRUD routes
-  resources :products
+  resources :products do
+    resources :subscribers, only: [ :create ]
+  end
+  resources :unsubscribe, only: [ :show ]
+
   root "products#index"
 end
